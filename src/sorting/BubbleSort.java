@@ -7,6 +7,9 @@ public class BubbleSort {
         System.out.println(arrayToString(array));
     }
 
+    /**
+     * sorting function of array
+     */
     public static void bubbleSort(int[] array) {
         boolean isSorted = false;
         while (!isSorted) {
@@ -22,6 +25,10 @@ public class BubbleSort {
         }
     }
 
+    /**
+     *
+     *  function of output array
+     */
     private static String arrayToString(int[] array) {
         StringBuilder sb = new StringBuilder();
         sb.append("[");
